@@ -1,0 +1,10 @@
+#Country .H1{
+    display: inline;
+    background-color: rgb(51, 44, 87);
+}
+div p {
+    font-family: cursive;
+    color: tomato;
+    text-decoration: underline;
+}
+  

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+       .Login-form {
+        width: 300px;
+        margin: 0% auto;
+        background-color: #f5f5f5;
+        padding: 15px;
+        border: 2px solid;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        opacity: 0.9;
+       }
+       
+       .Login-form input[type="text"]
+       .Login-form input[type ="Gender"]
+       .Login-form input[type ="password"]
+       .Login-form input[type="tel"]
+       ,.Login-form select {
+        width: 100%;
+            padding: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+       }
+
+.Login-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;">Login Form</h1>
+
+    <div class="Login-form">
+        <form action="" method="post">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" placeholder="First Name" name="fname"><br>
+
+            <label for="lname"></label>Last Name<br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br>
+
+            <label for="Gender">Gender</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label><br>
+
+            <label for="Mobile Number">Mobile Number</label>
+            <input type="tel" id="Mobile Number" name="Mobile Number" placeholder="Mobile Number">
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>

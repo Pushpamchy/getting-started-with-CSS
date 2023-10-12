@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS</title>
+    <link rel="stylesheet" href="mystyle.css"/> 
+    <!-- When you will uncomment internal and comment out external CSS you can see change in colors and learn about priority of inline,internal & external CSS -->
+    <!-- <style> -->
+        /* #Country .H1{
+            display: inline;
+            background-color: aqua;
+        }
+        div p {
+            font-family: cursive;
+            color: tomato;
+            text-decoration: underline;
+        } */
+
+    <!-- </style> -->
+</head>
+<body>
+    <Div id="Country">
+    <H1 class="H1">India</H1>
+    <p>Uttar Pradesh</p>
+    <p>Bihar</p>
+    <p>New Delhi</p>
+    <p>Maharashtra</p>
+    </Div>
+    <Div id="Country">
+    <H1 class="H1">USA</H1>
+    <p>California</p>
+    <p>Texas</p>
+    <p>Hawaii</p>
+    <p>Virginia</p>
+</Div>
+    <Div id="Country">
+        <H1 class="H1">Australia</H1>
+        <p>Queensland</p>
+        <p>Tasmania</p>
+        <p>Victoria</p>
+        <p>New South Wales</p>
+        <!-- Since, Paris has an inline css, priority will be given to inline first then internal and least priority will be given to external css and since i have not changed the element to inline it will block all the space-->
+        <p style="text-decoration: line-through;background-color: green; ">Paris</p> 
+        <!-- ( It is not in Australia ) -->
+    </Div>
+</body>
+</html>
+
+  
